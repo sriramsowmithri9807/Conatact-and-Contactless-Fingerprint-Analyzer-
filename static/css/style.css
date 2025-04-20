@@ -1,0 +1,108 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+h1 {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.form-label {
+    font-weight: 500;
+    color: #34495e;
+}
+
+.form-control {
+    border-radius: 8px;
+    border: 2px solid #e9ecef;
+    padding: 0.75rem;
+}
+
+.form-control:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 0 0.2rem rgba(52, 152, 219, 0.25);
+}
+
+.btn-primary {
+    background-color: #3498db;
+    border: none;
+    border-radius: 8px;
+    padding: 0.75rem 2rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+}
+
+.preview-container {
+    border: 2px dashed #e9ecef;
+    border-radius: 8px;
+    padding: 1rem;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-preview {
+    max-width: 100%;
+    max-height: 200px;
+    border-radius: 8px;
+    object-fit: contain;
+}
+
+#result {
+    transition: all 0.3s ease;
+}
+
+.alert {
+    border-radius: 8px;
+    padding: 1.5rem;
+}
+
+#probability {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+#matchStatus {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+/* Loading spinner */
+.spinner-border {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-width: 0.2em;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card-body {
+        padding: 1.5rem;
+    }
+    
+    .preview-container {
+        min-height: 150px;
+    }
+} 
